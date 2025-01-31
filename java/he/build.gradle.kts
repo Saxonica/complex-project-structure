@@ -17,13 +17,13 @@ dependencies {
 sourceSets {
     main {
         java {
-            srcDir(layout.projectDirectory.dir("../src/main/java"))
+            srcDir(layout.projectDirectory.dir("../../src/main/java"))
         }
     }
 
     test {
         java {
-            srcDir(layout.projectDirectory.dir("../src/test/java"))
+            srcDir(layout.projectDirectory.dir("../../src/test/java"))
         }
     }
 }

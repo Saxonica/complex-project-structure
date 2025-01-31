@@ -1,3 +1,3 @@
 rootProject.name = "complex-project-structure"
 
-include("java")
+include("java:he")
