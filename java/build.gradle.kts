@@ -14,6 +14,20 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
 
+sourceSets {
+    main {
+        java {
+            srcDir(layout.projectDirectory.dir("../src/main/java"))
+        }
+    }
+
+    test {
+        java {
+            srcDir(layout.projectDirectory.dir("../src/test/java"))
+        }
+    }
+}
+
 tasks.test {
     useJUnitPlatform()
 }
