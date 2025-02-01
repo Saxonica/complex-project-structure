@@ -16,6 +16,11 @@ public class Main {
     }
 
     public static String generate() {
-        return "excellent";
+        System.out.println("generating");
+        //#if BOGUS
+            return "bogus";
+        //#else
+            return "excellent";
+        //#endif
     }
 }
