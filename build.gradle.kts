@@ -30,18 +30,8 @@ val preprocessJava = tasks.register<PreprocessSourcesTask>("preprocessJava") {
     bogus = false
 }
 
-sourceSets {
-    main {
-        java {
-            srcDir(preprocessJava)
-        }
-    }
-
-    test {
-        java {
-            srcDir(layout.projectDirectory.dir("src/test/java"))
-        }
-    }
+tasks.compileJava {
+    setSource(preprocessJava)
 }
 
 tasks.test {
