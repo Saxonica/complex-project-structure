@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/complex-project-structure.iml" filepath="$PROJECT_DIR$/.idea/modules/complex-project-structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/buildSrc/complex-project-structure.buildSrc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java/complex-project-structure.java.iml" filepath="$PROJECT_DIR$/.idea/modules/java/complex-project-structure.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.iml" filepath="$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java/he/complex-project-structure.java.he.test.iml" />
+    </modules>
+  </component>
+</project>
