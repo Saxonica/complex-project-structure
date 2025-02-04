@@ -2,6 +2,7 @@ import com.saxonica.build.java.PreprocessSourcesTask
 
 plugins {
     id("java")
+    id("idea")
 }
 
 group = "com.saxonica.bugs"
@@ -40,6 +41,14 @@ sourceSets {
         java {
             srcDir(layout.projectDirectory.dir("../../src/test/java"))
         }
+    }
+}
+
+idea {
+    module {
+        sourceDirs.add(layout.projectDirectory.file("../../src/main/java").asFile)
+        //and some extra test source dirs
+        testSources.from(layout.projectDirectory.file("../../src/test/java"))
     }
 }
 
